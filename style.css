@@ -2,27 +2,105 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
 body {
-    width: 100%;
-}
-
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #f0f0f0;
 }
 
+main {
+    background-color: #f0f0f0;
+    text-align: center;
+    background-image: url("img/mobile/fundo.png");
+    height: 80vh;
+    padding: 100px 30px;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
 h1 {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    padding: 64px 0 16px 0;
+    font-size: 32px;
 }
 
 .descricao {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+    padding: 0 0 56px 0;
+    font-size: 16px;
+}
+
+button{
+    padding: 13px 73px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.btn-ios{
+    background-color: #26BBA4;
+    box-shadow: 0 3px 0 0 #1e8f7e;
+}
+.btn-ios:hover{
+    background-color: #156458;
+    box-shadow: 0 3px 0 0 #156458;
+}
+
+.btn-mac{
+    background-color: #6174FF;
+    box-shadow: 0 3px 0 0 #424fb3;
+}
+.btn-mac:hover{
+    background-color: #323b85;
+    box-shadow: 0 3px 0 0 #323b85;
+}
+
+
+
+
+
+
+
+.section-2{
+    padding: 158px 0 0 0;
+}
+
+.img-computador{
+    padding: 72px 0 72px 0;
+}
+
+.section-2 h2{
+    padding: 0 0 16px 0;
+}
+
+.section-2 h3{
+    padding: 0 0 8px 0;
+}
+
+.p2{
+    padding: 0 0 56px 0;
+}
+
+.section-3 h2{
+    padding: 177px 0 16px 0;
+}
+
+.p-access{
+    padding: 0 0 72px 0;
+}
+
+.supercharge{
+    padding: 129px 0 16px 0;
+}
+
+.p3{
+    padding:0 0 88px 0;
+}
+
+.p4{
+    padding: 16px 0 64px 0;
 }
