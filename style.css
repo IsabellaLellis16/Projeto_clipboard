@@ -85,6 +85,8 @@ button{
     padding: 0 0 56px 0;
 }
 
+
+
 .section-3 h2{
     padding: 177px 0 16px 0;
 }
@@ -97,10 +99,59 @@ button{
     padding: 129px 0 16px 0;
 }
 
-.p3{
-    padding:0 0 88px 0;
-}
-
 .p4{
     padding: 16px 0 64px 0;
+}
+
+.img-icone{
+    padding: 64px 0 40px 0;
+}
+
+.img-folha{
+    padding: 88px 0 40px 0;
+}
+
+.section-3 h3{
+    padding: 0 0 16px 0;
+}
+
+
+.section-4{
+    padding: 145px 0 172px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-4 img{
+    padding: 0 0 56px 0;
+}
+
+
+
+
+.section-5{
+    padding: 0 0 168px 0;
+}
+.p5{
+    padding: 16px 0 56px 0;
+}
+
+
+
+
+.logo-menor{
+    padding: 0 0 32px 0;
+}
+
+.p6{
+    padding: 0 0 24px 0;
+}
+
+.icones-sociais{
+    padding: 32px 0 0 0;
+    Display: flex;
+    justify-content: center;
+    gap: 40px;
 }
