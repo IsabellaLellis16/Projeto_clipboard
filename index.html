@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clipboard - Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="tipografia.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,66 +21,113 @@
         <h1 class="text-preset1 text-preset2 text-preset4">A history of everything you copy</h1>
         <p class="descricao text-preset7 text-preset8">Clipboard allows you to track and organize everything you copy.
             Instantly access your clipboard on all your devices.</p>
-        <section>
-            <button class="btn-ios text-preset7-bold">Download for iOS</button>
-            <button class="btn-mac text-preset7-bold">Download for Mac</button>
+        <section class="button-group">
+            <button class="btnios text-preset7-bold">Download for iOS</button>
+            <button class="btnmac text-preset7-bold">Download for Mac</button>
         </section>
     </main>
 
 
 
-    <section class="section-2">
+    <section class="features">
         <h2>Keep track of your snippets</h2>
-        <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets
+        <p class="subtitle">Clipboard instantly stores any item you copy in the cloud, meaning you can access your
+            snippets
             immediately on all your devices.</p>
 
-        <img src="img/mobile/computador.png" alt="Computador" class="img-computador">
+        <div class="features-grid">
+            <picture>
+                <source media="(max-width: 600px)" srcset="img/mobile/computador.png">
+                <source media="(max-width: 1024px)" srcset="img/tablet/pc.png">
+                <img src="img/desktop/computadorpc.png" alt="Computador" class="img-computador">
+            </picture>
 
-        <h3>Quick Search</h3>
-        <p class="p2">Easily search your snippets by content, category, web address, application, and more.</p>
 
-        <h3>iCloud Sync</h3>
-        <p class="p2">Instantly saves and syncs snippets across all your devices.</p>
+            <div class="features-text">
+                <h3>Quick Search</h3>
+                <p>Easily search your snippets by content, category, web address, application, and more.</p>
 
-        <h3>Complete History</h3>
-        <p class="p2">Retrieve any snippets from the first moment you started using the app.</p>
+                <h3>iCloud Sync</h3>
+                <p>Instantly saves and syncs snippets across all your devices.</p>
+
+                <h3>Complete History</h3>
+                <p>Retrieve any snippets from the first moment you started using the app.</p>
+            </div>
+        </div>
     </section>
 
 
     <section class="section-3">
-        <h2>Access Clipboard anywhere</h2>
-        <p class="p-access">Whether you’re on the go, or at your computer, you can access all your Clipboard
+        <h2 class="acess">Access Clipboard anywhere</h2>
+        <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
             snippets in a few simple clicks.</p>
 
-        <img src="img/mobile/celular_tablet.png" alt="Celular e Tablet" class="img-celular-tablet">
+        <picture>
+            <source media="(max-width: 600px)" srcset="img/mobile/celular_tablet.png">
+            <source media="(max-width: 1024px)" srcset="img/tablet/celular_tablet.png">
+            <img src="img/desktop/celular_tablet_pc.png" alt="Celular e Tablet" class="img-celular-tablet">
+        </picture>
+    </section>
 
-        <h2 class="supercharge">Supercharge your workflow</h2>
-        <p class="p3">We’ve got the tools to boost your productivity.</p>
 
-        <img src="img/mobile/folha.png" alt="folha" class="img-folha">
-        <h3>Create blacklists</h3>
-        <p class="p4">Ensure sensitive information never makes its way to your clipboard by excluding certain
-            sources.</p>
+    <section>
+        <div class="supercharge">
+            <h2>Supercharge your workflow</h2>
+            <p class="p3">We’ve got the tools to boost your productivity.</p>
+        </div>
 
-        <img src="img/mobile/a.png" alt="Ícone" class="img-icone">
-        <h3>Plain text snippets</h3>
-        <p class="p4">Remove unwanted formatting from copied text for a consistent look.</p>
+        <section class="icones">
+            <div>
+                <img src="img/mobile/folha.png" alt="folha" class="img-folha">
+                <h3>Create blacklists</h3>
+                <p class="p4">Ensure sensitive information <br> never makes its way to your clipboard <br> by excluding
+                    certain
+                    sources.</p>
+            </div>
 
-        <img src="img/mobile/olho.png" alt="Ícone" class="img-icone">
-        <h3>Sneak preview</h3>
-        <p class="p4">Quick preview of all snippets on your Clipboard for easy access.</p>
+            <div>
+                <img src="img/mobile/a.png" alt="Ícone" class="img-icone">
+                <h3>Plain text snippets</h3>
+                <p class="p4">Remove unwanted formatting <br> from copied text for a consistent look.</p>
+            </div>
+
+            <div>
+                <img src="img/mobile/olho.png" alt="Ícone" class="img-icone">
+                <h3>Sneak preview</h3>
+                <p class="p4">Quick preview of all snippets <br> on your Clipboard for easy access.</p>
+            </div>
+        </section>
+
     </section>
 
 
 
 
 
-    <section class="section-4">
-        <img src="img/mobile/google.png" alt="google">
-        <img src="img/mobile/ibm.png" alt="ibm">
-        <img src="img/mobile/microsoft.png" alt="microsoft">
-        <img src="img/mobile/hewlett.png" alt="hewlett packard">
-        <img src="img/mobile/vector.png" alt="vector graphics">
+
+
+    <section class="logos">
+
+        <div>
+            <img src="img/mobile/google.png" alt="google">
+        </div>
+
+        <div>
+            <img src="img/mobile/ibm.png" alt="ibm">
+        </div>
+
+        <div>
+            <img src="img/mobile/microsoft.png" alt="microsoft">
+        </div>
+
+        <div>
+            <img src="img/mobile/hewlett.png" alt="hewlett packard">
+        </div>
+
+        <div>
+            <img src="img/mobile/vector.png" alt="vector graphics">
+        </div>
+
     </section>
 
 
@@ -89,27 +136,32 @@
         <h2>Clipboard for iOS and Mac OS</h2>
         <p class="p5">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're
             ready to start adding to your clipboard.</p>
-        <section>
-            <button class="btn-ios text-preset7-bold">Download for iOS</button>
-            <button class="btn-mac text-preset7-bold">Download for Mac</button>
+        <section class="botoes">
+            <button class="btnios text-preset7-bold">Download for iOS</button>
+            <button class="btnmac text-preset7-bold">Download for Mac</button>
         </section>
     </section>
 
 
 
-    <footer>
+    <footer class="footer">
         <img src="img/mobile/logo_menor.png" alt="Logo" class="logo-menor">
-        <p class="p6"><a href="#">FAQs</a></p>
-        <p class="p6"><a href="#">Contact Us</a></p>
-        <p class="p6"><a href="#">Privacy Policy</a></p>
-        <p class="p6"><a href="#">Press Kit</a></p>
-        <p class="p6"><a href="#">Install Guide</a></p>
 
-        <section class="icones-sociais">
+        <nav class="footer-nav" aria-label="Navegação do rodapé">
+            <ul class="footer-links">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Press Kit</a></li>
+                <li><a href="#">Install Guide</a></li>
+            </ul>
+        </nav>
+
+        <nav class="social-links">
             <a href="#"><img src="img/mobile/facebook.png" alt="facebook"></a>
             <a href="#"><img src="img/mobile/twitter.png" alt="twitter"></a>
             <a href="#"><img src="img/mobile/instagram.png" alt="instagram"></a>
-        </section>
+        </nav>
     </footer>
 
 </body>
